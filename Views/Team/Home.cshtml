@@ -1,0 +1,10 @@
+﻿@model TryOut.Models.Team
+
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Привет участнику группы @Model.Name</h2>
+
+@Html.ActionLink("На главную", "Index", "Home")
+
